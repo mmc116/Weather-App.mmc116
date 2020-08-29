@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="selected-day">
+            <div class="row">
+                <div class="col">
+                    <h1>Lisbon</h1>
+                    <p id="current-day"></p>
+                    <h3>
+                        <span id="degrees">
+                            32°
+                        </span>
+                        <span class="conversion">
+                            <button class="celcius">°c</button>
+                            |
+                            <button class="fahrenheit">°f</button>
+                        </span>
+                    </h3>
+                </div>
+                <span><i class="fas fa-sun"></i></span>
+                <div class="col">
+                    <div class="search-city">
+                        <form>
+                            <input type="search" placeholder="Search city" id="city-input" />
+                            <button id="search-button">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </form>
+                        <button id="current-location-button">
+                            Current Location
+                        </button>
+                        <p class="more-info">
+                        <div id="humidity">
+                            Humidity: 52%
+                        </div>
+                        <br />
+                        <div id="wind">
+                            Wind: 6 km/h
+                        </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="week-forecast">
+            <div class="days">
+                <div class="row">
+                    <div class="col-sm">
+                        Sat
+                    </div>
+                    <div class="col-sm">
+                        Sun
+                    </div>
+                    <div class="col-sm">
+                        Mon
+                    </div>
+                    <div class="col-sm">
+                        Tue
+                    </div>
+                    <div class="col-sm">
+                        Wed
+                    </div>
+                </div>
+                <hr />
+                <div class="icons">
+                    <div class="row">
+                        <div class="col-sm">
+                            <i class="fas fa-cloud-sun"></i>
+                        </div>
+                        <div class="col-sm">
+                            <i class="fas fa-sun"></i>
+                        </div>
+                        <div class="col-sm">
+                            <i class="fas fa-cloud-sun"></i>
+                        </div>
+                        <div class="col-sm">
+                            <i class="fas fa-cloud-sun"></i>
+                        </div>
+                        <div class="col-sm">
+                            <i class="fas fa-sun"></i>
+                        </div>
+                    </div>
+                    <hr />
+                </div>
+                <div class="temperature">
+                    <div class="row">
+                        <div class="col-sm">
+                            31°c
+                        </div>
+                        <div class="col-sm">
+                            28°c
+                        </div>
+                        <div class="col-sm">
+                            29°c
+                        </div>
+                        <div class="col-sm">
+                            32°c
+                        </div>
+                        <div class="col-sm">
+                            31°c
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
